@@ -1,0 +1,41 @@
+body{
+	background-color: #d11f2e;
+}
+.img1{
+	width:30em;
+	height:20em;
+	display: block;
+	margin: auto;
+	align-content: center;
+}
+h1{
+	text-align: center;
+	font-family: 'Bebas neue';
+	font-size: 60px;
+}
+p{
+	text-align: center;
+	font-family: monospace;
+	font-size: 17px;
+}
+button{
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: transparent;
+	border-radius: 10px;
+	font-family: monospace;
+}
+button:hover{
+	animation-name: color;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+}
+@keyframes color{
+	100%{
+		background-color: #9c1924;
+	}
+}
+
+nav{
+	text-align: center;
+}

@@ -1,0 +1,61 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/5919565.jpg");
+    background-size:1160px;
+    background-size:cover;
+}
+h1{
+    text-align: center;
+    color:tan;
+    font-family: 'Bebas neue';
+    font-size: 60px;
+}
+button{
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: transparent;
+	border-radius: 10px;
+	font-family: monospace;
+    color:black;
+}
+button:hover{
+	animation-name: color;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+}
+@keyframes color{
+	100%{
+		background-color: #babaad;
+	}
+}
+nav{
+    text-align: center;
+}
+
+input{
+    margin: auto;
+    display: block;
+}
+label{
+    margin: auto;
+    display: block;
+}
+
+textarea{
+    margin: auto;
+    display: block;
+}
+#submit{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+	box-shadow: transparent;
+	border-radius: 10px;
+	font-family: monospace;
+    color:black;
+    background-color: #363636;
+}
+#submit:hover{
+	animation-name: color;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+}
